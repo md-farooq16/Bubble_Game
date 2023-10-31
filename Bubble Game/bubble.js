@@ -40,6 +40,7 @@ document.querySelector("#pbtm").addEventListener("click",(dets)=>{
   var clickedVal = Number(dets.target.textContent);
 
   if(clickedVal == hitrn){
+    clutter = "" ;
     scoreIncrease();
     makingBubbles();
     newHitVal()
